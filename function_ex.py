@@ -133,7 +133,7 @@ completed_models = []
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 
-# Now are code is far more organized.  Printing models is no longer also associated with showing which models have
+# Now our code is far more organized.  Printing models is no longer also associated with showing which models have
 # been printed.  As you become a better programmer, you will see this design pattern often.  Use it, and understand it.
 
 # The benefits (outside of arbitrary organization) are not immediately beneficial to newer programmers.  That is okay!
