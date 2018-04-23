@@ -16,7 +16,16 @@ def build_profile(first, last, **user_info):
 
 
 user_profile = build_profile('Tommy', 'Wisseau', profession='artist', hangups='spoons')
-print(user_profile)
+quincy_profile = build_profile('Quincy', 'Tennyson', profession='Teacher', hobbies='Swimming, Reading, Photography',
+                               favorite_food='pizza')
+
+
+def show_profile(user_profile):
+    for key,value in user_profile.items():
+        print("\n" + key.title() + ": " + value.title())
+
+
+show_profile(quincy_profile)
 
 # Using keyword arguments to potentially increase readability
 
